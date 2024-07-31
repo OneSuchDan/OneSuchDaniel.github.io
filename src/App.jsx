@@ -10,7 +10,7 @@ function App() {
         <h3 className="md:col-start-5 sm:col-auto md:justify-self-end">Experience</h3> */}
       </header>
       <section id="presentation" className="flex flex-col text-center overflow-y-hidden">
-        <a className="flex-1 self-center"><img src="../src/assets/icon_person.png"></img></a>
+        <a className="flex-1 self-center"><img src="https://github.com/OneSuchDan/OneSuchDaniel.github.io/blob/main/src/assets/icon_person.png?raw=true"></img></a>
         <h2 className="col-span-full grid-cols-subgrid text-2xl font-bold text-gray-100">Software and Network <br></br>Design Engineer</h2>
         <h1 className="font-museo text-6xl font-bold m-3">Bryan Daniel Macias</h1>
         <p className="text-base text-gray-50 mb-4">I am a software engineer who focuses <br></br>more on the part web</p>
