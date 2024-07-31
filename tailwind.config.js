@@ -2,9 +2,8 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx,png}",
     "./tailwind.config.js",
-    "./src/assets/**/*.{png,svg,jpg,jpeg}",
   ],
   theme: {
     extend: {
