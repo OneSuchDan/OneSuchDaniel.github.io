@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: #71D5F4;
+  font-family: "IBM Plex Sans",sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+@layer components {
+  .gradient{
+    background: linear-gradient(180deg, #3A4649 0%, #131C1F 57.1%);
+  }
+}
