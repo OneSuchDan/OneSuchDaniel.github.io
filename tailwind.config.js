@@ -4,7 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./tailwind.config.js",
-    "./node_modules"
+    "./src/assets/**/*.{png,svg,jpg,jpeg}",
   ],
   theme: {
     extend: {
