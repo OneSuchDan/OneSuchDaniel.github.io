@@ -19,10 +19,19 @@ export default {
           50: '#3A4649'
         },
       },
-      screens:{
-        'iphone' : '375px'
-
-      }
+      screens: {
+        'iphone': '375px'
+      },
+      animation:{
+        fade: 'fade 3000ms ease-in-out',
+      },
+      keyframes: {
+        fade: {
+          '100%': { opacity: '0' },
+          '50%': { opacity: '1' },
+          '0%': { opacity: '2' },
+        }
+      },
     },
   },
   plugins: [],

@@ -2,18 +2,18 @@
 const ContainerApp = () => {
   return (
     <div>
-        <header className="text-base text-gray-50 grid md:grid-cols-5 gap-x-5 m-8 mb-10 items-center sm:grid-cols-1 sm:place-items-center iphone:grid-cols-1 iphone:place-items-center overflow-y-hidden h-1/2">
-        <a className="text-gray-50 font-museo text-3xl font-bold">
+      <header style={{ userSelect: "none" }} className="static text-base text-gray-50 grid md:grid-cols-5 gap-x-5 m-8 mt-0 items-center sm:grid-cols-1 sm:place-items-center iphone:grid-cols-1 iphone:place-items-center overflow-y-hidden h-1/2">
+        <a className="text-gray-50 font-museo text-3xl font-bold mt-9">
           MC.
         </a>
       </header>
       <section id="presentation" className="flex flex-col text-center overflow-y-hidden">
-        <a className="flex-1 self-center"><img src="https://github.com/OneSuchDan/OneSuchDaniel.github.io/blob/main/src/assets/icon_person.png?raw=true"></img></a>
+        <a style={{ userSelect: "none" }} className="flex-1 self-center"><img loading="lazy" src="https://github.com/OneSuchDan/OneSuchDaniel.github.io/blob/main/src/assets/icon_person.png?raw=true"></img></a>
         <h2 className="col-span-full grid-cols-subgrid text-2xl font-bold text-gray-100">Software and Network <br></br>Design Engineer</h2>
         <h1 className="font-museo text-6xl font-bold m-3">Bryan Daniel Macias</h1>
         <p className="text-base text-gray-50 mb-4">I am a software engineer who focuses <br></br>more on the part web</p>
       </section>
-      <section className="gradient grid grid-cols-1 grid-rows-6 justify-items-center items-end h-full overflow-y-hidden">
+      <section className="gradient grid grid-cols-1 grid-rows-6 justify-items-center items-end h-full overflow-y-hidden 2xl:h-screen lg:h-full md:h-full">
         <div className="flex bg-inherit space-x-32 mt-5">
           <svg className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 m-2 size-12 bg-inherit" xmlns="http://www.w3.org/2000/svg" width="100" height="98" viewBox="0 0 100 98" fill="none">
             <a href="https://github.com/OneSuchDan" target="_blank">
@@ -26,7 +26,7 @@ const ContainerApp = () => {
             </a>
           </svg>
         </div>
-        <p className=" static hover:text-gray-400 text-gray-100 bg-inherit md:row-span-3 sm:row-span-3 text-xl">Scroll to see more</p>
+        <p className=" static hover:text-gray-400 text-gray-100 bg-inherit lg:row-span-2 md:row-span-2 iphone:row-span-1 sm:row-span-2 text-xl">Scroll to see more</p>
 
       </section>
     </div>

@@ -6,14 +6,12 @@ import Loading from "./component/Loading";
 function App() {
   const [loading,setLoading] = useState(true);
   useEffect(()=>{
-    setTimeout(()=>setLoading(false),2000)
+    setTimeout(()=>setLoading(false),2900)
   },[])
   return (
     <>
-    {loading === false ? (<ContainerApp/>):(<Loading/>)}
-    <div >
-      <ContainerApp/>
-    </div>
+    {loading === false ?"":<Loading></Loading>}
+    <ContainerApp></ContainerApp>
     </>
   )
 }
